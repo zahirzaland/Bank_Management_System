@@ -1,0 +1,10 @@
+# Tkinter, sqlite3, csv and hashlib ship with Python. Install Python with Tk support.
+# CustomTkinter provides the themed desktop controls.
+# (Windows/macOS installers include it; Debian/Ubuntu: sudo apt install python3-tk).
+#
+# Recommended: Argon2 password hashing. Without it the app falls back to bcrypt (if installed)
+# or Python's built-in scrypt, which are also standard, salted password-hashing functions.
+argon2-cffi>=23.1
+
+customtkinter
+reportlab>=4.0

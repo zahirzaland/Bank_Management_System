@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+data/*.db
+data/*.log*
+data/language.txt
+data/backups/
+
+# IDE settings
+.idea/
